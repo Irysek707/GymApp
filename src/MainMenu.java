@@ -43,6 +43,10 @@ public class MainMenu
             System.out.print("Please enter an option: ");
 
             //Get the user's selected option
+            scanner = new Scanner(System.in);
+            option = scanner.next().charAt(0);
+
+            //Execute the user's selected option
             switch (option)
             {
                 case '1':
