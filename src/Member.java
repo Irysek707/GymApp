@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Member extends Person implements IPayable
+public class Member extends Person implements IPayCalculator
 {
     // Instance variables
     private static int memberCounter = 0;

@@ -9,7 +9,7 @@ import java.time.Period;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MainMenu
+public class Menu
 {
 
     //Variables
@@ -21,7 +21,7 @@ public class MainMenu
 
 
     //Constructor
-    public MainMenu() { mList = new ArrayList<>();}
+    public Menu() { mList = new ArrayList<>();}
 
     //The main menu
     public void mainMenu()

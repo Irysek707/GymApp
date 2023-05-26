@@ -14,7 +14,7 @@ public class Main
     public static void main(String[] args)
     {
         // Create a new main menu object
-        MainMenu menu = new MainMenu();
+        Menu menu = new Menu();
         // Call the main menu
         menu.mainMenu();
     }
