@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed1a72f0-59ac-4fdd-bb89-e70d78af436e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPayCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MemberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GymApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GymApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GymApp/IPayable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GymApp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GymApp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GymApp/MainMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GymApp/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GymApp/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GymApp/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GymApp/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IPayable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPayCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IPayCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPayCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +135,8 @@
       <workItem from="1685098030029" duration="128000" />
       <workItem from="1685101201050" duration="540000" />
       <workItem from="1685103023287" duration="194000" />
-      <workItem from="1685103230042" duration="4022000" />
+      <workItem from="1685103230042" duration="4057000" />
+      <workItem from="1685427436177" duration="252000" />
     </task>
     <servers />
   </component>

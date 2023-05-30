@@ -9,6 +9,16 @@ import java.time.Period;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Object-Oriented Programming Advanced Concepts
+ * HND Software Development
+ * Year 2
+ *
+ * Anna Podlasek
+ * EC1842981
+ * May 2023
+ */
+
 public class Menu
 {
 
@@ -305,7 +315,7 @@ public class Menu
                     member.getDob() + "," +
                     member.getMemberAge() + "," +
                     member.getMemberType() + "," +
-                    member.getAnualFee() + "," +
+                    member.getAnnualFee() + "," +
                     member.getJoiningFee() + "," +
                     member.getJournalFee();
 

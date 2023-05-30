@@ -61,16 +61,16 @@ public class MemberTest
     }
 
     /**
-     * Test of getAnualFee method, of class Member.
+     * Test of getAnnualFee method, of class Member.
      */
     @Test
-    public void testGetAnualFee()
+    public void testGetAnnualFee()
     {
-        System.out.println("getAnualFee");
+        System.out.println("getAnnualFee");
         Member instance;
         instance = new MemberTest.MemberImp("Jane", "Smith", LocalDate.of(1990, 06, 23), 33, "1", 70.0, 10.0, 8.0);
         double expResult = 70.0;
-        double result = instance.getAnualFee();
+        double result = instance.getAnnualFee();
         assertEquals(expResult, result, 0);
     }
 
@@ -129,16 +129,16 @@ public class MemberTest
     }
 
     /**
-     * Test of setAnualFee method, of class Member.
+     * Test of setAnnualFee method, of class Member.
      */
     @Test
-    public void testSetAnualFee()
+    public void testSetAnnualFee()
     {
-        System.out.println("setAnualFee");
+        System.out.println("setAnnualFee");
         Member instance;
         instance = new MemberTest.MemberImp("Jane", "Smith", LocalDate.of(1990, 06, 23), 33, "1", 70.0, 10.0, 8.0);
-        double anualFee = 0.0;
-        instance.setAnualFee(anualFee);
+        double annualFee = 0.0;
+        instance.setAnnualFee(annualFee);
     }
 
     /**
@@ -171,7 +171,7 @@ public class MemberTest
     public void testToString() {
         System.out.println("toString");
         Member instance = new MemberTest.MemberImp("Jane", "Smith", LocalDate.of(1990, 06, 23), 33, "1", 70.0, 10.0, 8.0);
-        String expResult = "Member{mID=3, name=Jane, surname=Smith, dob=1990-06-23, age=33, memberType=1, anualFee=70.0, joiningFee=10.0, journalFee=8.0}";
+        String expResult = "Member{mID=3, name=Jane, surname=Smith, dob=1990-06-23, age=33, memberType=1, nFee=70.0, joiningFee=10.0, journalFee=8.0}";
         String result = instance.toString();
         assertEquals(expResult, result);
     }
@@ -195,9 +195,9 @@ public class MemberTest
 
     public class MemberImp extends Member
     {
-        public MemberImp(String name, String surname, LocalDate dob, int memberAge, String memberType, double anualFee, double joiningFee, double journalFee)
+        public MemberImp(String name, String surname, LocalDate dob, int memberAge, String memberType, double annualFee, double joiningFee, double journalFee)
         {
-            super(name, surname, dob, memberAge, memberType, anualFee, joiningFee, journalFee);
+            super(name, surname, dob, memberAge, memberType, annualFee, joiningFee, journalFee);
         }
     }
 

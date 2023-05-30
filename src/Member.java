@@ -1,5 +1,15 @@
 import java.time.LocalDate;
 
+/**
+ * Object-Oriented Programming Advanced Concepts
+ * HND Software Development
+ * Year 2
+ *
+ * Anna Podlasek
+ * EC1842981
+ * May 2023
+ */
+
 public class Member extends Person implements IPayCalculator
 {
     // Instance variables
@@ -7,18 +17,18 @@ public class Member extends Person implements IPayCalculator
     private final int memberID;
     private int memberAge;
     private String memberType;
-    double anualFee;
+    double annualFee;
     double joiningFee;
     double journalFee;
 
     // Constructor
-    public Member(String name, String surname, LocalDate dob, int memberAge, String memberType, double anualFee, double joiningFee, double journalFee)
+    public Member(String name, String surname, LocalDate dob, int memberAge, String memberType, double annualFee, double joiningFee, double journalFee)
     {
         super(name, surname, dob); // The super class constructor
         this.memberID = ++memberCounter;
         this.memberAge = memberAge;
         this.memberType = memberType;
-        this.anualFee = anualFee;
+        this.annualFee = annualFee;
         this.joiningFee = joiningFee;
         this.journalFee = journalFee;
     }
@@ -36,8 +46,8 @@ public class Member extends Person implements IPayCalculator
         return memberType;
     }
 
-    public double getAnualFee() {
-        return anualFee;
+    public double getAnnualFee() {
+        return annualFee;
     }
 
     public double getJoiningFee() {
@@ -58,8 +68,8 @@ public class Member extends Person implements IPayCalculator
         this.memberType = memberType;
     }
 
-    public void setAnualFee(double anualFee) {
-        this.anualFee = anualFee;
+    public void setAnnualFee(double annualFee) {
+        this.annualFee = annualFee;
     }
 
     public void setJoiningFee(double joiningFee) {
@@ -74,7 +84,7 @@ public class Member extends Person implements IPayCalculator
     @Override
     public String toString()
     {
-        return "Member{" + "mID=" + memberID + ", name=" + getName() + ", surname=" + getSurname() + ", dob=" + getDob() + ", age=" + memberAge + ", memberType=" + memberType + ", anualFee=" + anualFee + ", joiningFee=" + joiningFee + ", journalFee=" + journalFee + '}';
+        return "Member{" + "mID=" + memberID + ", name=" + getName() + ", surname=" + getSurname() + ", dob=" + getDob() + ", age=" + memberAge + ", memberType=" + memberType + ", annualFee=" + annualFee + ", joiningFee=" + joiningFee + ", journalFee=" + journalFee + '}';
     }
 
     // Interface method
@@ -82,6 +92,6 @@ public class Member extends Person implements IPayCalculator
     public double calculateTotalFee()
     {
         // The body of calculateTotalFee() is provided here
-        return getAnualFee() + getJoiningFee() + getJournalFee();
+        return getAnnualFee() + getJoiningFee() + getJournalFee();
     }
 }
